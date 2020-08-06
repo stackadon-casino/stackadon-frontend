@@ -25,7 +25,8 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    socket = io('localhost:7070')
+    // socket = io('localhost:7070')
+    socket = io('https://stackadon-backend.herokuapp.com')
     socket.on('takenSeat', ind => {
       store.dispatch(satOnTable(ind))
     })

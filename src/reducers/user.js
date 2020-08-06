@@ -21,7 +21,7 @@ const signUp = userInfo => ({
 export const signUpThunk = userInfo => {
   return async dispatch => {
     const { data } = await axios.post(
-      'https://stackadon.herokuapp.com/user/signup',
+      'https://stackadon-backend.herokuapp.com/user/signup',
       // 'http://localhost:7070/user/signup',
       userInfo
     )
@@ -33,7 +33,7 @@ export const userChipsThunk = id => {
   return async dispatch => {
     const { data } = await axios.post(
       // 'http://localhost:7070/user/chips'
-      'https://stackadon.herokuapp.com/user/chips',
+      'https://stackadon-backend.herokuapp.com/user/chips',
       {
         id
       }
@@ -47,7 +47,7 @@ export const currentUserThunk = user => {
   return async dispatch => {
     const { data } = await axios.post(
       // 'http://localhost:7070/login'
-      'https://stackadon.herokuapp.com/login',
+      'https://stackadon-backend.herokuapp.com/login',
       user
     )
     if (data) {
