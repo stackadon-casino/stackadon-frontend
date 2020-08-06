@@ -8,6 +8,11 @@ import Navbar from './component/Navbar'
 import Signup from './component/Signup'
 import './App.css';
 import logo from './logo.svg';
+import Blackjack2 from './component/Blackjack2'
+import Blackjack3 from './component/Blackjack3'
+import Blackjack4 from './component/Blackjack4'
+import Blackjack5 from './component/Blackjack5'
+import Blackjack6 from './component/Blackjack6'
 
 function App() {
   console.log(logo,'this is logo')
@@ -20,6 +25,21 @@ function App() {
         <Switch>
           <Route path="/blackjack/1">
             <Blackjack />
+          </Route>
+          <Route path="/blackjack/2">
+            <Blackjack2 />
+          </Route>
+          <Route path="/blackjack/3">
+            <Blackjack3 />
+          </Route>
+          <Route path="/blackjack/4">
+            <Blackjack4 />
+          </Route>
+          <Route path="/blackjack/5">
+            <Blackjack5 />
+          </Route>
+          <Route path="/blackjack/6">
+            <Blackjack6 />
           </Route>
           <Route path="/blackjack">
             <BlackjackHome />
