@@ -38,7 +38,6 @@ export const userChipsThunk = id => {
         id
       }
     )
-    console.log(data)
     dispatch(userChips(data))
   }
 }

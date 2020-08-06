@@ -15,7 +15,6 @@ import Blackjack5 from './component/BlackjackFive'
 import Blackjack6 from './component/BlackjackSix'
 
 function App() {
-  console.log(logo,'this is logo')
   return (
     <Router>
       <div>

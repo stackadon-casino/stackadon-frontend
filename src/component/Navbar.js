@@ -5,7 +5,6 @@ import logo from '../asset/logo.png'
 
 class Navbar extends React.Component {
   render() {
-    // console.log(this.props.state)
     const { loggedIn } = this.props
     return (
       <div>
