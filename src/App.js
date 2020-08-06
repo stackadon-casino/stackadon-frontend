@@ -8,11 +8,11 @@ import Navbar from './component/Navbar'
 import Signup from './component/Signup'
 import './App.css';
 import logo from './logo.svg';
-import Blackjack2 from './component/Blackjack2'
-import Blackjack3 from './component/Blackjack3'
-import Blackjack4 from './component/Blackjack4'
-import Blackjack5 from './component/Blackjack5'
-import Blackjack6 from './component/Blackjack6'
+import Blackjack2 from './component/BlackjackTwo'
+import Blackjack3 from './component/BlackjackThree'
+import Blackjack4 from './component/BlackjackFour'
+import Blackjack5 from './component/BlackjackFive'
+import Blackjack6 from './component/BlackjackSix'
 
 function App() {
   console.log(logo,'this is logo')
